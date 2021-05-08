@@ -1,0 +1,41 @@
+---
+title: "P1-template"
+author: "First Last"
+date: "1/21/2021"
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    highlight: pygments
+    includes:
+      in_header: cs4821-cs5831-header.tex
+fontsize: 11pt
+geometry: margin=0.9in
+---
+
+---
+
+This document is designed to be a project template using R Markdown. The document is rendered using the "Knit" button in RStudio.
+
+We can have code chunks throughout our answers.  Here we will have a code chunk to load in the libraries we expect to use in this assignment. The code chunk is labeled "packages" and includes options to number the lines when styled in the output document. 
+```{r packages, attr.source='.numberLines'}
+library(RColorBrewer)
+library(ggplot2)
+```
+
+Styling of the output document is determined using the YAML information at the top of this file.  For example, this document will be formatted as a PDF, code highlighting will be styled using the `pygments` color scheme, a table of contents will be included (nice to include for grading). 
+
+# Q1 
+
+## Q1(a)
+
+*Your answer to question 1(a)*
+
+## Q1(b) 
+
+...
+
+# Q2 
+
+## Q2(a) 
+

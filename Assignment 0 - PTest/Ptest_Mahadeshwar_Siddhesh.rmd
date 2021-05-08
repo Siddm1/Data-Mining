@@ -1,0 +1,32 @@
+---
+title: "PTest"
+output: pdf_document
+---
+## Due: Thu 01/21 @ 11:59pm
+## Siddhesh Mahadeshwar
+
+*Assignment Objectives:* \
+Upon successful completion of this assignment, a student will be able to: \
+  -- Add new text and code to their assignment solutions \
+  -- Gain experience in formatting text using Markdown or LaTeX \
+  -- Install or access to programming software to complete this assignment and subsequent assignments.
+
+
+```{r echo=TRUE}
+print("Hello World!")
+
+v1 <- "cs4821-cs5831"
+v2 <- 2021
+
+sprintf("Hello %s, welcome to %d", v1, v2)
+
+```
+
+
+```{r echo=TRUE}
+# "test comment"
+
+# This is a larger comment block
+# that may span multiple lines
+
+```
